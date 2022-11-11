@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    max-height: 90vh;
+    max-width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+ }
+ button {
+    position: relative;
+    cursor: pointer;
+    margin: 50px;
+    background-color: #ffffff;
+    font-size: 40px;
+    width: 70px;
+    height: 50px;
+ }
+ button:hover {
+    background-color: #c7c7c7;
+  
+ }
+ #image {
+    width: 30vw;
+ }
